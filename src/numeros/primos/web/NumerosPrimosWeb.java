@@ -4,6 +4,8 @@
  */
 package numeros.primos.web;
 
+import Apresentacao.frmPrincipal;
+
 /**
  *
  * @author Gilberto
@@ -14,7 +16,8 @@ public class NumerosPrimosWeb {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        frmPrincipal frmP = new frmPrincipal(null, true);
+        frmP.setVisible(true);
     }
     
 }
